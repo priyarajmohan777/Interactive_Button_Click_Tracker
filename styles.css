@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fef6f9; 
+}
+
+.counter-card {
+    background-color: #ffe3ec; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 40%;
+    padding: 40px;
+}
+
+button {
+    background-color: #d45d79;
+    padding:25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff5f8;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background-color: #b04c65;
+}
